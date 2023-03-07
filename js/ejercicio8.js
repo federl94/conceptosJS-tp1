@@ -1,9 +1,7 @@
-let num = parseInt(prompt('Ingrese primer numero'))
-if (num/2 && num==parseInt) {
-    document.write('No es divisible por 2')
-}
-else {
+let num = parseInt(prompt('Ingrese numero'))
+if (num%2 == 0) {
     document.write('Si es divisible por 2')
 }
-
-//falta resolver
+else {
+    document.write('No es divisible por 2')
+}
