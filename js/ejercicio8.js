@@ -5,3 +5,5 @@ if (num/2 && num==parseInt) {
 else {
     document.write('Si es divisible por 2')
 }
+
+//falta resolver
